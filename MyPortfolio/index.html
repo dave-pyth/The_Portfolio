@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="myportfolio2.css">
+    <script src="https://kit.fontawesome.com/2721797256.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+       <div class="container">
+            <nav>
+                <img src="/new_logo.png" class="logo">
+                <!-- <h1>|Mr David O. Ouma|</h1> -->
+                <!-- <img src="/my_portforlio.jpg" alt="My image" class="image"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><em>Academic and Scientific Ghostwriter/Proofreader/Copyeditor. <br>
+                    Software Engineer: Enthusiast</em> 
+                 </p>
+                 <h1>I am <span class="name-style ">David </span><br>O. Ouma from Kenya</h1> 
+
+            </div>
+        </div>
+        <!-- ------------------------------------------------About------------------------------------------------------ -->
+        <section id="about">
+            <div class="container">
+                <!-- creating row with two columns -->
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="my_portforlio.jpg" alt="my photo">
+                    </div>
+                    <article class="about-col-2">
+                        <h1 class="subtitle">A<span>b</span>out <span>M</span>e</h1>
+                        <p>
+                            I work as a professional proofreader, copy editor, and part-time tutor.
+                            I've edited and written several academic papers for my peers and professionals. 
+                            As a result, I am confident that I will meet and exceed your expectations. 
+                            In addition, I have copywriting experience for academic and scientific papers.
+                            Furthermore, I am a software engineer enthusiast with great lengths, thus far.
+                            Finally, I am dependable and adaptable and an excellent team player. 
+                            </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links"onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing/App interfaces</li>
+                                    <li><span>Web Development</span><br>Web/App Development</li>
+                                    <li><span>App Development</span><br>Building Mobile(android/iOS etc.) apps</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2019-Current</span><br>Senior Academic/Scientific Editor at CACTUS GLOBAL</li>
+                                    <li><span> 2006-2009</span><br>Maths/Chemistry teacher at St. Benard Secodary school (UT)</li>
+                                    <li><span> 2010-Current</span><br>Kenya Defense Forces, KDF</li>
+                                    <li><span>2007- Current</span><br>CEO at Umoja Educational Tuition Centre, Nairobi</li>
+                                   
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022-Current</span><br>Software Development Training at PLP Academy</li>
+                                    <li><span> 2009-2015</span><br>Pure/Applied at Egerton University</li>
+                                    <li><span> 2010-2013</span><br>Military Science at Kenya Military Academy, KMA (KDF)</li>
+                                    <li><span> 2009-2010</span><br>Business Administration at Nairobi Institute of Business Studies, NIBS</li>
+                                    <li><span>2002-2005</span><br>Kenya Certificate of Secondary Education, K.C.S.E</li>
+                                    <li><span>1994-2001</span><br>Kenya Certificate of Primary Education, K.C.S.E</li>
+                                </ul>
+                            </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+    <!--------------services--------------->
+
+
+
+    <section id="services">
+        <div class="container">
+            <h1 class="subtitles">M<span>y</span> Ser<span>vices</span></h1>
+            <article class="services-list">
+                <div>
+                    <i class="fa-regular fa-book"></i>
+                    <h2>Academia</h2>
+                    <p>I am a ghostwriter: "What is a ghostwriter?"
+                       I am a professional who <strong>writes theses, articles, books, 
+                        blog posts, speeches, newsletters, and other content under someone else's name. </strong> 
+                        I allow clients to claim authorship at a fee. 
+                        I also Copywrite if need be. 
+                        Further, I proofread and copy-edit contents/manuscripts/ etc. 
+                        for structure, grammar, language, readability, flow, and clarity
+                        and retain/convey the intended meaning at best.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>My work involves developing a website for the Internet 
+                       (World Wide Web) or an intranet (a private network). 
+                       I <strong>plan, create, and code internet sites and web pages</strong>, 
+                       many of which combine text with sounds, pictures, graphics, and video clips. 
+                       Thus, creating the design and layout of a website or web pages. 
+                       This entails working on a brand-new website or updating an existing one.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>As a UI/UX designer, I <strong>create user interfaces for apps, websites, or other interactive media. </strong>  
+                       I collaborate with product managers and engineers to gather 
+                       user requirements before designing ideas that can be communicated using storyboards. 
+                       I also process flows or sitemaps. 
+                       I creatively apply color palettes based on what best fits into a particular design conceptually.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP Designer</h2>
+                    <p>As an App designer, <strong>I create programs for smartphones, tablets, and computers. </strong>
+                       I work in various industries and across several platforms, 
+                       including Apple iOS and macOS, Google Android, and Windows. 
+                       I create games, weather apps, social networking tools, maps, navigation programs, and others.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            
+            </article>
+            
+        </div>
+    </section>
+    <!----------------portfolio---------  -->
+     <section id="portfolio">
+        <div class="container">
+            <h1 class="subtitle"  style="color: yellowgreen">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="acdemicproofreading.png" alt="Academic proofreading sample image">
+                    <div class="layer">
+                        <h3>Academic/Scientific proofreading/copyeding sample</h3>
+                        <p> The image shows a sample of an edited abstract from a previous happy client</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/responsive-website-design-computer-monitor.webp" alt="Website-design-computer-monitor image">
+                    <div class="layer">
+                        <h3>Websites </h3>
+                        <p> Websites in this global village era are a necessity for businesses, education, work, and social life among other. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="process-developing-interface-smartphone.webp" alt="Interface-smartphone image">
+                    <div class="layer">
+                        <h3>Smartphone interfaces</h3>
+                        <p> A smooth interface provides for a great mobile phone experience</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div><div class="work">
+                    <img src="Appdesign" alt="App-design image">
+                    <div class="layer">
+                        <h3>Apps</h3>
+                        <p>For instance, a responsive shopping app would boost a business and enable client satisfaction as well.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="button">See more</a>
+        </div>
+     </section>
+ <!-----------------------------------------------Contact-------------------------------------------- -->
+     <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>davidomuga@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>+254724269201</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/prosperousdave"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/DavidomugaOuma"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/daveouma/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/david-ouma-7b503611b/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                     <a href="CV and certificates DAVID OUMA.pdf" download class="button button2">Download CV</a>   
+                </div>
+                <!--  form           -->
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name here" required>
+                        <input type="email" name="Email" placeholder="Enter your email here" required>
+                        <textarea name="Message" rows="10"placeholder="Enter your message here"></textarea>
+                        <button type="submit" class="button button2">Submit</button>
+                    </form>
+                     <span id="MESSAGE"></span>   
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><em>Copyright © Dave: Made with <i class="fa-solid fa-heart"></i> from hours of practice and sacrifice.</em></p>
+        </div>
+     </section>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzS1bGJT55TDKT-qPHU4nZYohhCJW71JEa3aLIQZmetV1XVcrDIkmklQ01eZvrsABZM/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const MESSAGE = document.getElementById("MESSAGE")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                MESSAGE.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    MESSAGE.innerHTML = ""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
